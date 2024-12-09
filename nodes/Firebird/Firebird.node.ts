@@ -42,7 +42,7 @@ export class Firebird implements INodeType {
   };
 
   async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
-    const credentials = await this.getCredentials("firebird");
+    const credentials = await this.getCredentials("firebirdApi");
 
     if (credentials === undefined) {
       throw new NodeOperationError(
