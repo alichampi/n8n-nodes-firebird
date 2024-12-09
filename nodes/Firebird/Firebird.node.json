@@ -1,0 +1,18 @@
+{
+  "node": "n8n-nodes-base.Firebird",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": ["Data & Storage"],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://firebirdsql.org/rlsnotesh/rnfb210-wintrusted.html"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://firebirdsql.org/"
+      }
+    ]
+  }
+}
