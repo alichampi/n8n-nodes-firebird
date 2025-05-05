@@ -72,5 +72,11 @@ export class FirebirdApi implements ICredentialType {
 			default: false,
 			description: 'Set to true to lowercase keys.',
 		},
+		{
+			displayName: 'Encoding',
+			name: 'encoding',
+			type: 'string',
+			default: 'UTF8',
+		},
 	];
 }
